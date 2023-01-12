@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
+import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3, DiRuby } from 'react-icons/di';
 import {
   SiJavascript,
@@ -8,8 +8,6 @@ import {
   SiRubyonrails,
   SiRedux,
   SiPostgresql,
-  SiNetlify,
-  SiWebpack,
 } from 'react-icons/si';
 import { FaReact } from 'react-icons/fa';
 
