@@ -23,8 +23,11 @@ To obtain a local copy of the project follow this steps:
 
 ## Author
 
-👤 **Diego Yon**
+👤 **Francis Wayungi**
 
+- GitHub: [@githubhandle](https://github.com/wayungi)
+- Twitter: [@twitterhandle](https://twitter.com/FrancisWayungi)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/francis-wayungi-3aa626231)
 
 
 ## 🤝 Contributing
