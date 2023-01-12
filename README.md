@@ -1,4 +1,4 @@
-# Portfolio v3
+# Portfolio-fw
 
 > Third iteration of my portfolio. Fully responsive website that showcases my latest projects. Available on the site is my contact information, as well as other social media links and a form where people can reach me.
 
