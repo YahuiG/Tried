@@ -1,0 +1,126 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(23, 26, 33, 0.5);
+  display: flex;
+  justify-content: center;
+  padding: 0 3rem;
+  color: white;
+  z-index: 10;
+}
+
+.inside-navbar {
+  width: 100%;
+  max-width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-div {
+  height:40px;
+  width:40px;
+}
+
+.logo {
+  width:100%;
+  border-radius:5px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links a {
+  color: white;
+}
+
+.mobile {
+  display: none;
+}
+
+.navbar-mobile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hamburger {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.nav-menu {
+  background-color: rgba(0, 212, 255, 0.7);
+  width: 15rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  padding: 2rem;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+  backdrop-filter: blur(5px);
+}
+
+.nav-menu a {
+  color: white;
+}
+
+.nav-menu.activated {
+  right: 0;
+  transition: 350ms;
+}
+
+.nav-menu-items {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.x-icon {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.navbar-toggle {
+  align-self: flex-end;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav-text a {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-text a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .navbar {
+    padding: 0 2rem;
+  }
+}

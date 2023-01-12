@@ -1,0 +1,56 @@
+import React from 'react';
+import './Home.css';
+import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
+import { SiGmail } from 'react-icons/si';
+
+const Home = () => {
+  return (
+    <section className="home" id="home">
+      {/* <h3>Hey there!</h3> */}
+      <h1>FRANCIS WAYUNGI</h1>
+      <h2>FULL-STACK DEVELOPER</h2>
+      <p>BUILDING DIGITAL PRODUCTS, BRANDS, AND EXPERIENCES.</p>
+      <ul className="icon-list">
+      <li>
+          <a
+            href="https://github.com/wayungi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsGithub className="icons github" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/francis-wayungi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsLinkedin className="icons linkedIn" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="mailto: fwayungi@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiGmail className="icons mail" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/FrancisWayungi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsTwitter className="icons twitter" />
+          </a>
+        </li>
+        
+      </ul>
+    </section>
+  );
+};
+
+export default Home;

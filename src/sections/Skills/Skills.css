@@ -1,0 +1,61 @@
+.skills {
+  height: 100vh;
+  padding-top: 5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+  color: rgba(0, 212, 255, 1);
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-icon {
+  font-size: 3rem;
+}
+
+.js {
+  color: #f0db4f;
+}
+
+.ruby_rails {
+  color:#820c02;
+}
+
+.redux {
+  color: #764abc;
+}
+
+.css3 {
+  color: #264de4;
+}
+
+.html5 {
+  color: #e34c26;
+}
+
+@media (min-width: 640px) {
+  .skills-grid {
+    /* gap: 3rem; */
+    column-gap: 8rem;
+    row-gap: 3rem;
+  }
+
+  .skill-icon {
+    font-size: 4.5rem;
+  }
+}
