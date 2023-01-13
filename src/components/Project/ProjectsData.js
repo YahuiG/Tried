@@ -5,25 +5,28 @@ import cryptoapp from '../../images/cryptoapp2.png';
 
 const ProjectsData = [
   {
-    title: 'Brittn connect',
-    gitHub: 'https://github.com/wayungi/brit-con',
-    live: 'https://www.brittnconnect.com/',
+    title: 'Todo List App',
+    gitHub: 'https://github.com/wayungi/ToDoListApp',
+    live: 'https://soft-malabi-1a9e7c.netlify.app/',
     description: [
-      'Brit connect is a website for an ISP. The Company posts all inportant information for its clients on the site',
+      "A web app designed to keep track of complete and incomplete tasks.",
+      "Users can add or delete tasks. Tasks can also be marked as complete or incomplete.",
+      "Built with JavaScript, HTML, CSS and Webpack."
     ],
-    skills: ['Ruby On Rails', 'PostgreSQL', 'HTML', 'CSS'],
+    skills: ['Javascript', 'HTML', 'CSS'],
     image: budget,
   },
 
   {
-    title: 'Bikers',
-    gitHub: 'https://github.com/Alzubair98/group-project-front-end',
-    live: 'https://helpful-douhua-bfc6b0.netlify.app/',
+    title: 'Budget App',
+    gitHub: ' https://github.com/wayungi/budget-app1/blob/main/README.md',
+    live: 'https://budgetup.onrender.com/',
     description: [
-      'This Website is for a bicycle company. It is used to book appointments to try out their new bikes.',
-      "Users can book and cancel appointments. They can also reserve a bike. Built with React and Ruby on Rails.",
+      "Budget Applets you manage your spending." ,
+      "You can add a category of items you want to spend on and the app will aggregates your net expenses per category.",
+      "Built with Ruby on Rails." 
     ],
-    skills: ['React', 'Ruby on Rails'],
+    skills: ['Ruby on Rails'],
     image: highground,
   },
   {
@@ -43,8 +46,8 @@ const ProjectsData = [
     gitHub: 'https://github.com/wayungi/browse-movie',
     live: 'https://alphantihinduka.github.io/Browse-movie-app/',
     description: [
-      'A web application based on an external API which contains information about Movies.',
-      'Users can Like, Comment on and Mark favourite thier favourite movies. This Applicaction uses an involvement API to save user interactions data.',
+      'A web application based on an external API which contains information about movies.',
+      'Users can like, comment on and reserve thier favourite movies. This applicaction uses an involvement API to save user interactions data.',
     ],
     skills: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
     image: shows,

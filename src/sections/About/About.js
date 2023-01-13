@@ -14,7 +14,7 @@ const About = () => {
             that come along with the tasks.
           </p>
           <p>
-            I have  over 5 years of work expereience and 2 of these are in software development.
+            I have  over 5 years of work experience and 2 of these are in software development.
             I have worked as an IT technician, Scala back-end developer, website admin and as a DStv technician.
             I am constantly expanding the limits of my technical abilities by learning new languages, frameworks, and technologies.
           </p>
