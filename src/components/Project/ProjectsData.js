@@ -34,7 +34,7 @@ const ProjectsData = [
     gitHub: 'https://github.com/wayungi/crypto-cash',
     live: 'https://diegoyon-crytoapp.netlify.app/',
     description: [
-      "The Cryto-cash is an application that consumes the CoinCap API that contains updated information about cryptocurrencies.",
+      "Cryto-cash is an application that consumes the CoinCap API that contains updated information about cryptocurrencies.",
       "Currencies displayed can be filtered by ranking, price or percentage change. It also shows more information about each crytocurrency including a graph showing the price variations."
     ],
     skills: ['React', 'Redux'],
