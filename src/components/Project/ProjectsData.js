@@ -18,24 +18,24 @@ const ProjectsData = [
   },
 
   {
-    title: 'Budget App',
-    gitHub: ' https://github.com/wayungi/budget-app1/blob/main/README.md',
-    live: 'https://budgetup.onrender.com/',
+    title: 'Book Manager',
+    gitHub: 'https://github.com/wayungi/Awesome_books_es6_2',
+    live: 'https://wayungi.github.io/Awesome_books_es6_2/',
     description: [
-      "Budget Applets you manage your spending." ,
-      "You can add a category of items you want to spend on and the app will aggregates your net expenses per category.",
-      "Built with Ruby on Rails." 
+      "Awesome books is a SPA (Single Page Application) which stores books and their authors.",
+      "The app has three pages where a user can add book details, view added books, and a contact information page. Added books can also be deleted.",
+      "Built with JavaScript, HTML and CSS" 
     ],
-    skills: ['Ruby on Rails'],
+    skills: ["JavaScript", "HTML", "CSS"],
     image: highground,
   },
   {
-    title: 'Space Travellers',
-    gitHub: 'https://github.com/nimplay/space-travelers',
-    live: 'https://whimsical-sherbet-40bd6b.netlify.app/',
+    title: 'Crypto Cash',
+    gitHub: 'https://github.com/wayungi/crypto-cash',
+    live: 'https://diegoyon-crytoapp.netlify.app/',
     description: [
-      'Space Travellers is a single page application that users can use to book trips to outter space.',
-      'Users can check which space shuttles and missions are available for booking. Built with React & Redux using space missions API',
+      "The Cryto-cash is an application that consumes the CoinCap API that contains updated information about cryptocurrencies.",
+      "Currencies displayed can be filtered by ranking, price or percentage change. It also shows more information about each crytocurrency including a graph showing the price variations."
     ],
     skills: ['React', 'Redux'],
     image: cryptoapp,
