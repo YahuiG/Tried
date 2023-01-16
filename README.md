@@ -16,7 +16,7 @@
 To obtain a local copy of the project follow this steps:
 
 - Open your console.
-- Type the following `git@github.com:diegoyon/portfolio-v3.git` if you are using a SSH key.
+- Type the following `git@github.com:wayungi/portfolio-fw.git` if you are using a SSH key.
 - Press ENTER to create your local clone.
 - Install dependencies with `npm install`.
 - Start the SPA by typing `npm start`.
