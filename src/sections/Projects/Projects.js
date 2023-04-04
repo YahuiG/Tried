@@ -60,7 +60,7 @@ const Projects = () => {
       </div>
       <a
         className="all-projects-button"
-        href="https://github.com/diegoyon?tab=repositories"
+        href="https://github.com/wayungi?tab=repositories"
         target="_blank"
         rel="noreferrer"
       >
