@@ -7,13 +7,13 @@ const Home = () => {
   return (
     <section className="home" id="home">
       {/* <h3>Hey there!</h3> */}
-      <h1>FRANCIS WAYUNGI</h1>
+      <h1>Yahui Guo</h1>
       <h2>FULL-STACK DEVELOPER</h2>
-      <p>BUILDING DIGITAL PRODUCTS, BRANDS, AND EXPERIENCES.</p>
+      <p>Establish web design, user interaction test and database maintenance.</p>
       <ul className="icon-list">
       <li>
           <a
-            href="https://github.com/wayungi"
+            href="https://github.com/YahuiG"
             target="_blank"
             rel="noreferrer"
           >
@@ -22,7 +22,7 @@ const Home = () => {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/francis-wayungi"
+            href="https://www.linkedin.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -31,7 +31,7 @@ const Home = () => {
         </li>
         <li>
           <a
-            href="mailto: fwayungi@gmail.com"
+            href="mailto: zzm0815gyh@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -40,7 +40,7 @@ const Home = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com/FrancisWayungi"
+            href="https://twitter.com"
             target="_blank"
             rel="noreferrer"
           >
