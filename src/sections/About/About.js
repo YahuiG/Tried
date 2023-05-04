@@ -26,7 +26,7 @@ const About = () => {
         </div>
       </div>
       <form
-        action="https://drive.google.com/file/d/1Rj0JpMp-xVntNR4ioyK0X8Wf-v36ZckV/view?usp=sharing"
+        action="https://drive.google.com/file/d/1T_RtLiht44zGPwFijuj6mYkwj9LQuZZ7/view?usp=sharing"
         target="_blank"
       >
         <button type="submit" value="View Resume">
