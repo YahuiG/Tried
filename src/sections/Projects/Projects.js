@@ -12,13 +12,11 @@ const Projects = () => {
   const [title, setTitle] = useState();
   const [description, setDescription] = useState([]);
   const [skills, setSkills] = useState([]);
-  const [gitHub, setGitHub] = useState();
   const [live, setLive] = useState();
   const handleSlideChange = (e) => {
     setTitle(ProjectsData[e.realIndex].title);
     setDescription(ProjectsData[e.realIndex].description);
     setSkills(ProjectsData[e.realIndex].skills);
-    setGitHub(ProjectsData[e.realIndex].gitHub);
     setLive(ProjectsData[e.realIndex].live);
   };
 
@@ -52,7 +50,6 @@ const Projects = () => {
 
         <Project
           title={title}
-          gitHub={gitHub}
           live={live}
           description={description}
           skills={skills}
@@ -60,7 +57,6 @@ const Projects = () => {
       </div>
       <a
         className="all-projects-button"
-        href="https://github.com/wayungi?tab=repositories"
         target="_blank"
         rel="noreferrer"
       >
