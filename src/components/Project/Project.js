@@ -18,9 +18,7 @@ const Project = (props) => {
         ))}
       </div>
       <div className="card-icons">
-        <a href={gitHub} target="_blank" rel="noreferrer">
-          <FiGithub className="card-icons-specific" />
-        </a>
+      
         <a href={live} target="_blank" rel="noreferrer">
           <FiExternalLink className="card-icons-specific" />
         </a>
